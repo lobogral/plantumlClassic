@@ -3,11 +3,13 @@
 <details><summary>Code #0</summary>
 
 ```plantuml
+@startuml
 class Dummy {
  -field1
  #field2
  ~method1()
  +method2()
 }
+@enduml
 ```
 </details>
