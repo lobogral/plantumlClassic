@@ -5,6 +5,7 @@ skinparam classBorderColor Black
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 
+Figura <|-- Circulo
 Figura <|-- Cuadrado
 Figura <|-- Triangulo
 
@@ -22,6 +23,12 @@ class Cuadrado {
 class Triangulo {
  -base: float
  -altura: float
+ + <<override>> calcularPerimetro()
+ + <<override>> calcularArea()
+}
+
+class Circulo {
+ -radio: float
  + <<override>> calcularPerimetro()
  + <<override>> calcularArea()
 }
