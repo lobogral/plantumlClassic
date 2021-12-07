@@ -1,0 +1,28 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam ActorBackgroundColor White
+skinparam ActorBorderColor Black
+skinparam ParticipantBorderColor Black
+skinparam ParticipantBackgroundColor White
+hide footbox
+
+actor ": Usuario"
+
+": Usuario" -> ": Clase1": metodo1()
+activate ": Clase1"
+
+": Clase1" -> ": Clase2": metodo2()
+activate ": Clase2"
+
+": Clase2" -> ": Clase3": metodo3()
+activate ": Clase3"
+": Clase3" --> ": Clase2": return valor1
+destroy ": Clase3"
+
+": Clase2" --> ": Clase1": return valor2
+deactivate ": Clase2"
+
+": Clase1" -> ": Usuario": return valor3
+deactivate ": Clase1"
+@enduml
