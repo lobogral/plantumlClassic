@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam monochrome true
+skinparam shadowing false
+skinparam ActorBackgroundColor White
+skinparam ActorBorderColor Black
+skinparam UsecaseBackgroundColor White
+skinparam UsecaseBorderColor Black
+
+actor Cliente
+actor Empleado
+rectangle Verificación {
+  Cliente -- (Verificar)
+  (Verificar) .> (Pagar) : include
+  (Ayudar) .> (Verificar) : extends
+  (Verificar) -- Empleado
+}
+@enduml
