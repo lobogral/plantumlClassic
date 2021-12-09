@@ -2,8 +2,9 @@
 skinparam monochrome true
 skinparam shadowing false
 skinparam backgroundColor transparent
+skinparam arrowColor Gray
 skinparam classBackgroundColor White
-skinparam classBorderColor Black
+skinparam classBorderColor Gray
 skinparam classAttributeIconSize 0
 
 Figura <|-- Cuadrado
