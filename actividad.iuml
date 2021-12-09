@@ -1,0 +1,17 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam ActivityBackgroundColor White
+skinparam ActivityBorderColor Black
+
+(*) --> "Inicialización"
+
+if "Alguna prueba" then
+  ->[verdad] "Alguna actividad"
+  --> "Otra actividad"
+  --> (*)
+else
+  -->[falso] "Hacer otra cosa"
+  -->[termina proceso] (*)
+endif
+@enduml
