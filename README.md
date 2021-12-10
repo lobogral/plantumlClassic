@@ -6,3 +6,5 @@
 ![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/casouso.iuml)
 # Diagrama de actividad
 ![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/actividad.iuml)
+# Diagrama de componentes
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/componente.iuml)
