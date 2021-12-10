@@ -1,0 +1,11 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam componentBackgroundColor White
+skinparam componentBorderColor Black
+skinparam interfaceBackgroundColor White
+skinparam interfaceBorderColor Black
+
+BBDD - [Componente1]
+[Componente1] ..> HTTP : usa
+@enduml
