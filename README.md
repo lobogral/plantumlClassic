@@ -2,7 +2,7 @@
 
 Versión clásica de UML usando plantuml.
 
-Plantuml ha tenido un uso creciente y ha sido versátil para crear distintos tipos de diagramas UML [^fn1], pero las estructuras básicas de los diagramas son bastante informales, por ello este repositorio utiliza las opciones de personalización para llevar los diagramas a un estilo más clásico [^fn2][^fn3].
+Plantuml ha tenido un uso creciente y ha sido versátil para crear distintos tipos de diagramas UML [^fn1], pero las estructuras básicas de los diagramas son bastante informales, por ello este repositorio utiliza las opciones de personalización de plantuml para llevar los diagramas a un estilo más clásico [^fn2][^fn3].
 
 El estilo clásico se utiliza en los siguientes diagramas:
 
