@@ -7,15 +7,15 @@ Plantuml ha tenido un uso creciente, y ha sido versátil para crear distintos ti
 El código del estilo clásico se encuentra en la carpeta ``src/``, los diagramas utilizados en el estilo clásico son los siguientes:
 
 ## Diagrama de clases
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/clases.iuml)
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/clases.puml)
 ## Diagrama de secuencia
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/secuencia.iuml)
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/secuencia.puml)
 ## Diagrama de caso de uso
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/casouso.iuml)
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/casouso.puml)
 ## Diagrama de actividad
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/actividad.iuml)
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/actividad.puml)
 ## Diagrama de componentes
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/componente.iuml)
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/componente.puml)
 
 [^fn1]: https://plantuml.com/es/
 
