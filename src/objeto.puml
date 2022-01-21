@@ -1,0 +1,33 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam ObjectBackgroundColor white
+skinparam ObjectBorderColor black
+
+object "c: Compañía" as o1 {
+  nombre = "Perez S.A"
+}
+
+object "d1: Departamento" as o2 {
+  nombre = "Ventas"
+}
+
+object "d2: Departamento" as o3 {
+  nombre = "I+D"
+}
+
+object "d3: Departamento" as o4 {
+  nombre = "Ventas en Colombia"
+}
+
+object "p: Persona" as o5 {
+  nombre = "Pedro"
+  ID_empleado = "1234"
+  cargo = "Vcpte. de Ventas"
+}
+
+o1 -- o2 : departamento
+o1 -- o3 : departamento
+o2 -- o4 : región
+o4 -- o5 : director
+@enduml
