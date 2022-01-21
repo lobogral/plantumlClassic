@@ -16,6 +16,8 @@ El código del estilo clásico se encuentra en la carpeta ``src/``, los diagrama
 ![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/actividad.puml)
 ## Diagrama de componentes
 ![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/componente.puml)
+## Diagrama de objetos
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/lobogral/practicas_UML/master/src/objeto.puml)
 
 [^fn1]: https://plantuml.com/es/
 
